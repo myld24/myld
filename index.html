@@ -108,7 +108,7 @@
         
         <form title="wiki" name="search" method="post" action="http://de.wikipedia.org/wiki/" target="_blank">
   
-            <label><input type ="checkbox" name="suchbegriff">Suchbegriff<input type="text" name="search" size="30" id="eingabe" ></label></>
+            <label><input type ="hidden" name="suchbegriff">Suchbegriff<input type="text" name="search" size="30" id="eingabe" ></label></>
     <br>
     <input type="button" name="suchen" value="Artikelsuche" onclick="window.open('http://de.wikipedia.org/wiki/' + search.value)">
     <input type="submit" name="go" value="Volltextsuche" onclick="window.open('https://de.wikipedia.org/wiki/Spezial:Suche?search=' + search.value + '&fulltext=Volltextsuche')"><br>
